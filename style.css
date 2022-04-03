@@ -6,16 +6,17 @@
     display: flex;
     background-color: #1f2937;
     color: white;
+    font-size: 12px;
 }
     .header-container div {
-    border: 2px solid red;
+    
     height: 30px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 
-  }
+    }
 
 .body-container{
     
@@ -24,15 +25,36 @@
         border: 2px solid blue;
         height: 300px;    
     }
-    .body1-container {
+        .first-container {
+            display: flex;
+            background-color: #1f2937;
+        }
+        .first-container div {
+            border: 2px solid red;
+            height: 300px;
+            flex: 1;    
+        }
+        .second-container {
+    
+        padding: 5px;
+        
+        border: 4px solid indigo;
         display: flex;
-        background-color: #1f2937;
-    }
-        .body1-container div {
-        border: 2px solid red;
-        height: 300px;
-        flex: 1;    
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        }
+      
+      .second-container div {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #3882f6;
+        border-radius: 25px;
       }
+
+
+
+
 .footer-container{
     color: white;
     background-color: #1f2937;
@@ -42,3 +64,4 @@
     justify-content: center;
     align-items: center;
 }
+
